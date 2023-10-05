@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3822b5a9b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- --------NAVBAR AND HOME------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Screenshot 2023-10-03 232609.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#interests">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <p>Student</p>
+                <h1>Hello there, I'm <span>Rochit</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------ABOUT------- -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="Image.jpg"></div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="about-me-text">📚 Aspiring Management Scholar | First-Year Engineering Student | Cricket Enthusiast | Author-in-Progress |Coding and Web Development Enthusiast<br><br>
+
+                        Hello there! I'm Rochit Surana, currently navigating the world of Industrial Production Engineering as a first-year student at SGSITS, Indore. However, my true passion lies in the realm of management and strategic thinking, which is why I'm ardently preparing for the Integrated Program of Management (IPM). <br><br>
+                        
+                        In addition to my academic pursuits, I'm also crafting a book, pouring my thoughts and ideas onto pages. As I near completion, I'm eagerly anticipating sharing this creation with the world. <br><br>
+                        Apart from my love for writing, I am also interested in coding and web development. In fact, this website you're visiting right now was designed and built by me! <br><br>
+                        
+                        Beyond the world of books and classes, you'll often find me engrossed in cricket matches, analyzing games, and appreciating the nuances of the sport. I strongly believe in the power of strategic planning, both in the game of cricket and in the world of business. <br><br>
+                        
+                        This space is a glimpse into my multifaceted journey—a blend of engineering studies, literary aspirations, and the love for cricket. Join me as I prepare for an exciting future, finish my book, and celebrate the victories, both on the field and in the world of ideas. <br><br>
+                        
+                        Let's continue this journey of learning, writing, and cheerng for success together! 🌟🏏📖</p>
+
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Blogging</span><br>Cricket blogger</li>
+                                <li><span>Aspiring Author</span><br>Book in progress</li>
+                                <li><span>Web Development</span><br>Learning stage</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Writing and Uploading blogs</span><br>Since 2021</li>
+                                <li><span>Created a simple website project</span><br>2023</li>
+                                <li><span>Worked as Content Writer and headed the content team for AUTOMOD 3.0</span><br>2023</li>
+                                <li><span>Volunteered for marketting and management for AUTOMOD 3.0</span><br>2023</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.tech IPE</span><br>SGSITS, Indore(2023-27)</li>
+                                <li><span>Class 11th and 12th</span><br>SKPS, Indore(2023)</li>
+                                <li><span>Nursery to Class 10th</span><br>Choithram School,Indore(2021)</li>
+
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------services---------- -->
+<div id="interests">
+    <div class="container">
+        <h1 clas="sub-title">My Interests</h1>
+        <div class="interests-list">
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Sports Blogging</h2>
+                <p>Diving into the heart of the game, I craft stories that capture the exhilarating spirit of sports, one post at a time.</p>
+                <a href="https://cricketandsoul.blogspot.in">Read my Blog!</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-guitar"></i>
+                <h2>Music</h2>
+                <p>Immersed in the melody of music, my passion for guitar harmonizes with years of experience in my school orchestra, creating symphonies that resonate with soulful tunes.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Diving into the world of web development as an enthusiastic amateur, this marks my second website—a journey of learning, creativity, and passion.</p>
+                <a href="https://rochit1.github.io/RSWebsite/">Check out my first website</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="OIP.jpeg">
+                <div class="layer">
+                    <h3>Blog</h3>
+                    <p>Explore the pulse of cricket through insightful analysis, player spotlights, and match predictions.</p>
+                    <a href="https://cricketandsoul.blogspot.in"><i class="fa-brands fa-blogger"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="OIP (1).jpeg">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>My inaugural journey into web development: a digital canvas where lines of code dance, images breathe life, and creativity finds its virtual home.</p>
+                    <a href="https://rochit1.github.io/RSWebsite/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="OIP (2).jpeg">
+                <div class="layer">
+                    <h3>My Book</h3>
+                    <p>An aspiring author, penning dreams into words, weaving tales that resonate with the heart; navigating the labyrinth of imagination with every stroke of the pen.Will keep you updated with the progress I make with this book</p>
+                    <a href="#"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------CONTACT------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> contact@example.in</p>
+                <p><i class="fa-solid fa-phone"></i> 012345678</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rochit-surana-475637282/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2023 Rochit Surana</p>
+    </div>
+</div>
+<!-- -------JAVASCRIPT------ -->
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
