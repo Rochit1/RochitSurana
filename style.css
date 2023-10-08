@@ -383,7 +383,6 @@ nav .fas{
         font-size: 16px;
         margin-top: 15px;
     }
-    }
     .copyright{
         font-size: 14px;
     }
@@ -397,3 +396,4 @@ nav .fas{
     .row{
         flex-direction: column;
     }
+}
